@@ -2,6 +2,10 @@
 
 Website made for Daftyfox.
 
+### Preview
+
+daftyfox.me
+
 ## Requirements
 
 - Server to run/Xampp
