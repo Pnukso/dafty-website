@@ -4,7 +4,7 @@ Website made for Daftyfox.
 
 ### Preview
 
-daftyfox.me
+http://www.daftyfox.me
 
 ## Requirements
 
