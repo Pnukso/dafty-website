@@ -1,0 +1,224 @@
+body {
+    background: linear-gradient(270deg, #9dd597, #c797d5);
+    background-size: 400% 400%;
+
+    -webkit-animation: GradientOnPage 30s ease infinite;
+    -moz-animation: GradientOnPage 30s ease infinite;
+    animation: GradientOnPage 30s ease infinite;
+}
+
+section .button {
+    text-transform: uppercase;
+    font-family: 'poppinsregular';
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background: #9966cc;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: grey 0 0 10px;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+section .button:hover {
+    background: white;
+    transition: 0.3s;
+    color: black;
+}
+
+.boxes {
+    padding: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxes figure {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+figure {
+    transition: 0.3s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#jeden {
+    -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+#dwa {
+    -webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+#trzy {
+    -webkit-animation: scale-up-center 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+#cztery {
+    -webkit-animation: scale-up-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+#last {
+    -webkit-animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+/* figure a:hover {
+    filter: brightness(0.7);
+    transition: 0.3s;
+} */
+
+figure img:hover{
+    background: rgba(255,255,255,.3);
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+figcaption {
+    color:white;
+    font-size: 30px;
+    /* text-shadow: rgb(49, 49, 49) 2px 2px 2px; */
+    font-family: 'poppinsregular';
+}
+
+
+footer {
+    text-align:  center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0px;
+}
+
+@media screen and (min-width: 540px) {
+    section .stickers {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes GradientOnPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientOnPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientOnPage {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('/customfont/poppins-black-webfont.woff2') format('woff2'),
+         url('/customfont/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('/customfont/poppins-regular-webfont.woff2') format('woff2'),
+         url('/customfont/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsthin';
+    src: url('/customfont/poppins-thin-webfont.woff2') format('woff2'),
+         url('/customfont/poppins-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
