@@ -6,6 +6,9 @@ Website made for Daftyfox.
 
 http://www.daftyfox.me
 
+Link to github pages:
+https://pnukso.github.io/dafty-website/
+
 ## Requirements
 
 - Server to run/Xampp
@@ -24,12 +27,6 @@ For gradient effect in background I used website "https://www.gradient-animator.
 Gradient effect in background could break the page when scrolling/zooming that's why I removed ability to zoom on my page, and turned of the gradient on /html/links.html page.
 
 Icons made by me in photoshop. First I wanted to make them in a inline but,  flex-warp is actually better.
-
-
-## Website TEST
-
-You can test website through this link: 
-https://pnukso.github.io/dafty-website/
 
 
 ## Credits
