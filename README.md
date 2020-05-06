@@ -26,6 +26,11 @@ Gradient effect in background could break the page when scrolling/zooming that's
 Icons made by me in photoshop. First I wanted to make them in a inline but,  flex-warp is actually better.
 
 
+## Website TEST
+
+You can test website through this link: 
+https://pnukso.github.io/dafty-website/
+
 
 ## Credits
 
