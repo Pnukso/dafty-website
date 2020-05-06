@@ -7,7 +7,7 @@ Website made for Daftyfox.
 http://www.daftyfox.me
 
 Link to github pages:
-https://pnukso.github.io/dafty-website/
+https://pnukso.github.io/dafty-website/ (still in work)
 
 ## Requirements
 
