@@ -46,11 +46,12 @@ section {
     padding: 20px;
 }
 
-figcaption{
+a{
     font-family: 'poppinsregular';
     color:white;
     font-size: 55px;
     text-shadow: grey 2px 2px 3px;
+    text-decoration: none;
 }
 footer {
     text-align:  center;

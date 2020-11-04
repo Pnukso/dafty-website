@@ -7,6 +7,8 @@ body {
     animation: GradientOnPage 30s ease infinite;
 }
 
+
+
 section .button {
     text-transform: uppercase;
     font-family: 'poppinsregular';
@@ -40,11 +42,20 @@ section .button:hover {
     color: black;
 }
 
+.space {
+    padding: 3%;
+}
+
 .boxes {
-    padding: 8%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0;
+}
+.boxes:hover figure {
+    filter: blur(3px);
+    transform: scale(0.95);
+    opacity: 0.9;
 }
 
 .boxes figure {
@@ -52,6 +63,13 @@ section .button:hover {
     margin: auto;
     text-align: center;
     width: 200px;
+}
+
+.boxes figure:hover,
+.boxes figure:focus {
+  transform: scale(1.05);
+  filter: none;
+  opacity: 1;
 }
 
 figure {
